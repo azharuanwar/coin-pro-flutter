@@ -1,16 +1,31 @@
-# practice_flutter
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/azharuanwar/">
+  
+  </a>
 
-A few resources to get you started if this is your first Flutter project:
+  <h3 align="center">Coin Pro - Mobile Flutter</h3>
+  <h5 align="center">by Azharu Anwar</h5>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+ 
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p float="left">
+ <img src="assets/ss.png" alt="Logo" width="auto" height="auto">
+ 
+
+</p>
+## Built With
+
+CoinPro Apps - Application Mobile build with Dart and Flutter Framework
+* [Flutter](https://flutter.dev)
+* [Dart](https://dart.dev)
