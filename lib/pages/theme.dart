@@ -12,5 +12,14 @@ TextStyle textHeader = GoogleFonts.lato(
 
 TextStyle textButton = GoogleFonts.lato(
     fontSize: 18, color: Colors.white, fontWeight: FontWeight.w400);
+
+TextStyle titleText = GoogleFonts.lato(
+    fontSize: 24, color: Color(0xff222222), fontWeight: FontWeight.bold);
+
+TextStyle subtitleText = GoogleFonts.lato(
+  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  color: Color(0xff94959B),
+);
 //default margin
 double defautlMargin = 30.0;

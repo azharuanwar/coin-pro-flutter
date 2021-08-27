@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:shamo_apps/pages/theme.dart';
 
 class SplashScreen extends StatefulWidget {
   // const SplashScreen({ Key? key }) : super(key: key);
@@ -15,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(
       Duration(seconds: 4),
-      () => Navigator.pushNamed(context, '/loginPage'),
+      () => Navigator.pushNamed(context, '/LoginPage'),
     );
     super.initState();
   }

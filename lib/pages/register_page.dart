@@ -164,7 +164,9 @@ class _RegisterPageState extends State<RegisterPage> {
               height: 56,
               width: double.infinity,
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.pushNamed(context, '/VerifyEmail');
+                },
                 child: Text(
                   'Register',
                   style: textButton,
