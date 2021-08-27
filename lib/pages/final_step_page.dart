@@ -65,7 +65,7 @@ class FinalStepPage extends StatelessWidget {
               width: double.infinity,
               child: TextButton(
                 onPressed: () {
-                  Navigator.pushNamed(context, '/SetPinPage');
+                  Navigator.pushNamed(context, '/HomePage');
                 },
                 child: Text(
                   'Lets go',

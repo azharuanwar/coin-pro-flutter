@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shamo_apps/pages/final_step_page.dart';
+import 'package:shamo_apps/pages/home_page.dart';
 import 'package:shamo_apps/pages/register_page.dart';
 import 'package:shamo_apps/pages/set_pin_page.dart';
 import 'package:shamo_apps/pages/splash_screen.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         '/VerifyEmail': (context) => VerifyEmail(),
         '/SetPinPage': (context) => SetPinpage(),
         '/FinalStepPage': (context) => FinalStepPage(),
+        '/HomePage': (context) => HomePage(),
       },
     );
   }
