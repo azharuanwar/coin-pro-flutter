@@ -41,10 +41,24 @@ class HomePage extends StatelessWidget {
       return Container(
         margin: EdgeInsets.only(top: 32),
         child: Center(
-            child: Image.asset(
-          'assets/card.png',
-          width: 327,
-        )),
+          child: Container(
+            height: 214,
+            width: 327,
+            // color: Color(0xff22222),
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                  colors: [
+                    const Color(0xff2972FF),
+                    const Color(0xff8444D2),
+                  ],
+                  begin: const FractionalOffset(0.0, 0.0),
+                  end: const FractionalOffset(1.0, 0.0),
+                  stops: [0.0, 1.0],
+                  tileMode: TileMode.clamp),
+              borderRadius: BorderRadius.circular(30),
+            ),
+          ),
+        ),
       );
     }
 
